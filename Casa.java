@@ -1,5 +1,5 @@
 
-/*
+/**
  * @author Raul Gonzalez Gonzalez
    @version 3.5.1
  */
@@ -17,7 +17,7 @@ class Casa
        pared=new Square();
        puerta=new Square();
     }
-    /*metodo que permite dibujar cada uno de los elementos que conforman la 
+    /**metodo que permite dibujar cada uno de los elementos que conforman la 
      * casa.
      */
     void dibujate(){
@@ -26,7 +26,7 @@ class Casa
          pared.makeVisible();
          puerta.makeVisible();
     }
-    /*
+    /**
      * metodo que permite acomodar los elementos que conforman una casa para
      * poder representar la misma.ademas de cambiar aspectos de la casa.
      */
@@ -50,7 +50,7 @@ class Casa
     
     
     }
-    /*
+    /**
      * metodo que permite mostrar una segyunda casa en diferente posicion a
      * la primer casa mostrada.
      */
